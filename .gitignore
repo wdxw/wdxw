@@ -1,0 +1,28 @@
+# Maven 构建输出
+target/
+
+# IDE 配置
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code / Trae IDE
+.vscode/
+*.code-workspace
+
+# Java
+*.class
+*.jar
+*.war
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+
+# 环境敏感文件
+.env
+*.env.local
+application-local.properties

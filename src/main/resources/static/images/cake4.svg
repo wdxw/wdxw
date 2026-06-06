@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="40" y="55" width="120" height="70" rx="10" fill="#D2B48C"/>
+  <rect x="40" y="55" width="120" height="12" rx="6" fill="#8B4513"/>
+  <rect x="55" y="35" width="90" height="25" rx="6" fill="#F5F5DC"/>
+  <text x="100" y="53" text-anchor="middle" fill="#5C3A21" font-size="10" font-weight="bold">提拉米苏</text>
+  <ellipse cx="100" cy="122" rx="65" ry="10" fill="#C4A882"/>
+  <circle cx="70" cy="62" r="4" fill="#6B3A2A"/>
+  <circle cx="100" cy="58" r="4" fill="#6B3A2A"/>
+  <circle cx="130" cy="62" r="4" fill="#6B3A2A"/>
+</svg>

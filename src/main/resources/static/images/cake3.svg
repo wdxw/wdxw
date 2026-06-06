@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="30" y="65" width="140" height="15" rx="4" fill="#FFF8DC"/>
+  <rect x="30" y="80" width="140" height="15" rx="4" fill="#FFE4B5"/>
+  <rect x="30" y="95" width="140" height="15" rx="4" fill="#FFF8DC"/>
+  <rect x="30" y="110" width="140" height="15" rx="4" fill="#FFE4B5"/>
+  <rect x="30" y="65" width="140" height="60" rx="4" fill="#FFD700" opacity="0.3"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#E8D5B7"/>
+  <rect x="50" y="38" width="100" height="28" rx="6" fill="#FFA500"/>
+  <text x="100" y="57" text-anchor="middle" fill="#FFF" font-size="10" font-weight="bold">芒果千层</text>
+  <circle cx="160" cy="70" r="8" fill="#FFA500"/>
+</svg>

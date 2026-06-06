@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜蜜蛋糕屋 - 蛋糕商城</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">🎂 甜蜜蛋糕屋</h1>
+            <button class="cart-toggle" id="cartToggle" onclick="toggleCart()">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-badge" id="cartBadge">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h2>精选蛋糕</h2>
+            <p>每一款都是用心烘焙的艺术品</p>
+        </section>
+
+        <section class="product-grid" id="productGrid">
+        </section>
+    </main>
+
+    <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+
+    <aside class="cart-panel" id="cartPanel">
+        <div class="cart-header">
+            <h2>🛒 购物车</h2>
+            <button class="cart-close" onclick="toggleCart()">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-empty">购物车是空的，快去挑选美味的蛋糕吧~</div>
+        </div>
+        <div class="cart-footer" id="cartFooter" style="display:none;">
+            <div class="cart-total">
+                <span>合计：</span>
+                <span class="cart-total-price" id="cartTotal">¥0.00</span>
+            </div>
+            <button class="btn-checkout" onclick="checkout()">去结算</button>
+            <button class="btn-clear" onclick="clearCart()">清空购物车</button>
+        </div>
+    </aside>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- 支付弹窗 -->
+    <div class="pay-overlay" id="payOverlay">
+        <div class="pay-modal">
+            <div class="pay-header">
+                <h2>💳 订单结算</h2>
+                <button class="pay-close" onclick="closePayModal()">✕</button>
+            </div>
+            <div class="pay-body">
+                <div class="pay-order-info">
+                    <p class="pay-order-id">订单编号：<span id="payOrderId"></span></p>
+                    <p class="pay-order-amount">应付金额：<span id="payOrderAmount"></span></p>
+                </div>
+                <div class="pay-qrcode-box">
+                    <canvas id="qrcodeCanvas" class="qrcode-canvas"></canvas>
+                    <p class="pay-hint">请使用微信/支付宝扫描二维码支付</p>
+                </div>
+                <div class="pay-items" id="payItems"></div>
+            </div>
+            <div class="pay-footer">
+                <button class="btn-pay-cancel" onclick="closePayModal()">取消</button>
+                <button class="btn-pay-confirm" id="btnPayConfirm" onclick="confirmPay()">
+                    确认支付
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

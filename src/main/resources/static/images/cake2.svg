@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <rect x="30" y="60" width="140" height="80" rx="8" fill="#5C3A21"/>
+  <rect x="30" y="60" width="140" height="15" rx="8" fill="#8B5A2B"/>
+  <circle cx="70" cy="62" r="6" fill="#3E2723"/>
+  <circle cx="120" cy="62" r="6" fill="#3E2723"/>
+  <rect x="50" y="70" width="100" height="50" rx="4" fill="#6D4C41"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#D2B48C"/>
+  <rect x="55" y="35" width="90" height="28" rx="6" fill="#3E2723"/>
+  <text x="100" y="54" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="bold">巧克力</text>
+</svg>
